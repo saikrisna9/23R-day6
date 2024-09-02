@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <h1 align="center" style="background-color: gray">
+      10KCoders Registration Form
+    </h1>
+  </head>
+  <body bgcolor="lightblue">
+    <form>
+      <label for="fname"><b>Firstname:</b></label>
+      <input type="text" name="fname" id="fname" placeholder="eg:john" />
+      <label for="lname"><b>Lastname:</b></label>
+      <input
+        type="text"
+        name="lname"
+        id="lname"
+        placeholder="surname"
+      /><br /><br />
+      <label for="mail"><b>Mail-ID:</b></label>
+      <input
+        type="mail"
+        name="mail"
+        id="mail"
+        placeholder="abc@gmail.com"
+        required
+      /><br /><br />
+      <label for="mobile"><b>Mobile:</b></label>
+      <input
+        type="tel"
+        name="mobile"
+        id="mobile"
+        pattern="[0-9]{10}"
+        placeholder="1234567890"
+        required
+      /><br /><br />
+      <label for="pname"><b>Father name:</b></label>
+      <input type="text" name="pname" id="pname" /><br /><br />
+
+      <label for="date"><b>DOB:</b></label>
+      <input type="date" name="date" id="date" /><br /><br />
+    </form>
+    <label for="adrs"><b>Address:</b></label>
+    <input
+      type="text"
+      name="adrs"
+      id="adrs"
+      placeholder="H.no,Street name"
+    /><br /><br />
+    <label><b>Gender</b></label
+    ><br /><br />
+    <input type="radio" name="Gender" value="Male" />Male
+    <input type="radio" name="Gender" value="Female" />Female<br /><br />
+    <label for="clg"><b>College:</b></label>
+    <input type="text" name="clg" id="clg" /><br /><br />
+    <label><b>Degree:</b></label
+    ><br /><br />
+    <input type="radio" name="degree" value="btech" />B.Tech
+    <input type="radio" name="degree" value="B.Coms" />B.Com
+    <input type="radio" name="degree" value="bpharm" />B.pharm<br /><br />
+    <label><b>Year of Pass-Out:</b></label
+    ><br /><br />
+    <input type="radio" name="year" value="2024" />2024
+    <input type="radio" name="year" value="2023" />2023
+    <input type="radio" name="year" value="2022" />2022
+    <input type="radio" name="year" value="2021" />2021 <br /><br />
+    <label><b>Langagues Known:</b></label
+    ><br /><br />
+    <input type="checkbox" name="skills" value="python" />Python
+    <input type="checkbox" name="skills" value="java" />Java
+    <input type="checkbox" name="skills" value="Sql" />SQL<br /><br />
+    <label><b>Feedback:</b></label
+    ><br />
+    <textarea rows="3" columns="100"></textarea><br /><br />
+    <label><b>Any Further queries:</b></label
+    ><br /><br />
+    <input type="checkbox" name="yes" value="yes" />Yes
+    <input type="checkbox" name="yes" value="no" />No<br /><br />
+    <center><input type="submit" value="Register" /></center>
+  </body>
+</html>
